@@ -52,17 +52,17 @@ var Sfx = (function () {
   };
 
   Sfx.prototype.pickupCoin = function () {
-    this.playBuffer(this.buffers['pickup_coin.wav']);
+    this.playBuffer(this.buffers['sfx/pickup_coin.wav']);
   };
   Sfx.prototype.win = function () {
-    this.playBuffer(this.buffers['win.wav']);
+    this.playBuffer(this.buffers['sfx/win.wav']);
   };
   Sfx.prototype.loose = function () {
-    this.playBuffer(this.buffers['loose.wav']);
+    this.playBuffer(this.buffers['sfx/loose.wav']);
   };
 
   Sfx.prototype.setDrillVolume = function (v) {
-    var buffer = this.buffers['drill.wav'];
+    var buffer = this.buffers['sfx/drill.wav'];
     if (buffer && !this.drillSource) {
       var source = this.context.createBufferSource();
       var gain = this.context.createGain();
