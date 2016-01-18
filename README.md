@@ -7,6 +7,7 @@ A one-level simple game I did for the course:
   * gamepad
   * audio context
   * canvas
+  * xhr XMLHttpRequest
 * minimize with
   * Google Closure Compiler
   * TinyPNG
