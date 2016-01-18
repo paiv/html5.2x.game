@@ -1,0 +1,16 @@
+{
+  "name": "gamefw",
+  "version": "1.0.0",
+  "description": "none",
+  "repository": "none",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.8.5",
+    "serve-static": "^1.10.0"
+  }
+}
